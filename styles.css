@@ -31,22 +31,22 @@ h2{
     width: 400px;
 }
 
-.form-main{
+.form{
     padding: 30px 40px;
 }
 
-.form-main{
+.form{
     margin-bottom: 10px;
     padding-bottom: 20px;
     position:relative;
 }
 
-.form-main label{
+.form label{
     color: #777;
     display: block;
 }
 
-.form-main input{
+.form input{
     border: 2px solid #f0f0f0;
     border-radius: 4 px;
     display: block;
@@ -55,12 +55,12 @@ h2{
     font-size: 14px;
 }
 
-.form-main input:focus{
+.form input:focus{
     outline: 0;
     border-color: #777;
 }
 
-.form-main button{
+.form button{
     cursor: pointer;
     background-color: #3498db;
     border: 2px solid #3498db;
@@ -73,7 +73,7 @@ h2{
     width: 100%;
 }
 
-.form-main small{
+.form small{
     color: var(--error-color);
     position: absolute;
     bottom: 0;
@@ -81,14 +81,14 @@ h2{
     visibility: hidden;
 }
 
-.form-main.error small{
+.form.error small{
     visibility: visible;
 }
 
-.form-main.success input{
+.form.success input{
     border-color: var(--success-color);
 }
 
-.form-main.error input{
+.form.error input{
     border-color: var(--error-color);
 }
